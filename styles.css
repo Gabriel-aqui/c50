@@ -1,0 +1,40 @@
+.menu {
+  /* adicione o código correto para colocar o menu corretamente.*/
+  background-color: #4a4d71;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 45px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* adicione o código correto para colocar os elementos da grade
+  um ao lado do outro igualmente.   */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 45px;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
